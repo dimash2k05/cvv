@@ -1,0 +1,66 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.header hr {
+    border: none; /* Remove the default line */
+    border-top: 1px solid white; /* Add a thinner solid white line */
+    margin: 10px auto; /* Add some margin for spacing */
+    width: 450px;
+}
+
+.full {
+    display : flex;
+}
+.left {
+    padding: 20px;
+    width: 250px;
+    background-color: #e0e0e0;
+}
+
+.left h4 {
+    text-align: center;
+}
+
+.left hr {
+    border-top: 2px solid;
+    margin-top : -15px;
+}
+
+.right {
+    padding: 20px;
+}
+
+.right h3 {
+    text-align: center;
+}
+
+.right hr {
+    border-top: 2px solid;
+    margin-top : -15px;
+}
+
+.table {
+    margin-bottom: 10px;
+}
